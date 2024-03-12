@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
       "The peace in the\n early mornings",
       "The magical\n golden hours",
       "Wind-down time\n after dinners",
-      "The serenity past\n midnight"
+      "The serenity past\nmidnight"
     ];
 
     Map<String, String> smallTitles = {
@@ -230,7 +230,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             BottomNavigationBar(
               type: BottomNavigationBarType.fixed,
-              elevation: 6,
+              // elevation: 6,
               backgroundColor: const Color.fromARGB(255, 35, 39, 48),
               items: <BottomNavigationBarItem>[
                 for (int i = 1; i <= 4; i++)
@@ -314,7 +314,7 @@ class _MyHomePageState extends State<MyHomePage> {
       // height: 10,
 
       margin: const EdgeInsets.all(8.0),
-      height: size.height * 0.10,
+      height: size.height * 0.08,
 
       decoration: BoxDecoration(
         color: const Color(0xFF232A2E),
